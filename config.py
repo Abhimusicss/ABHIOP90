@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/30xxx30/alpha",
+    "https://github.com/Abhimusicss/ABHIOP90",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/heaven_of_actresses")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+_otvi9uXfOU2ZTJl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PlusBotsMusic")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/plussupportchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/xsvt6b.jpg"
+    "START_IMG_URL", "https://graph.org/file/669d7ba53187d45d25e4f-54144d88684b4f686e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/bdcf5x.jpg"
+    "PING_IMG_URL", "https://graph.org/file/7793dd6a86ad943366dd8-cd4fecd427fc7b0bd8.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/bdcf5x.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/bdcf5x.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/bdcf5x.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+STATS_IMG_URL = "https://graph.org/file/9d22f03239c64f922ee41-0c27b5e62b37153b48.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+STREAM_IMG_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4cde3bd2af120694cf833-d42df60d016043b483.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/b6622cff41c5a66183caa-1c369e0581a4da6bbe.jpg"
 
 
 def time_to_seconds(time):
